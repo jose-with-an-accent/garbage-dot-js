@@ -1,0 +1,12 @@
+body {
+	font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+}
+
+/* these are for the animatic library */ 
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	 }
+}
