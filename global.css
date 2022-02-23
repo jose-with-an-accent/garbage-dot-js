@@ -1,5 +1,7 @@
 body {
-	font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+	font-family: 'Red Hat Display', 'Red Hat Text', Arial, Helvetica, sans-serif;
+	background-color: rgb(51, 170, 255);
+	padding-top: 15px;
 }
 
 /* these are for the animatic library */ 
@@ -9,4 +11,24 @@ body {
 	} to {
 		opacity: 1;
 	 }
+}
+nav {
+	position: fixed;
+	background: #FFF;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+nav templated-bit {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+}
+nav templated-bit a{
+	padding: 5px 0;
+}
+a {
+	text-decoration: none;
 }

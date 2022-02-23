@@ -11,7 +11,13 @@
 	</style>
 </head>
 <body>
-	<noscript>Hmm... You need JavaScript for this to work. </noscript>
+	<noscript>Hmm... You need JavaScript for this page to work. </noscript>
+	
+	<nav>
+		<templated-bit fw-iter="navigation">
+			<spa-link fw-value="pageName" fw-page="slice"></spa-link>
+		</templated-bit>
+	</nav>
 	<div id="wrapper">
 		Loading...
 	</div>
